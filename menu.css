@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  gap: 66px;
+  margin-top: 60px;
+}
+.border-line {
+  border: solid;
+  width: 306px;
+}
+.sushi-header {
+  font-size: 50px;
+  text-transform: uppercase;
+}
+.menu-food {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.menu-container {
+  width: 1000px;
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+}
+
+.menu-icons {
+  display: flex;
+  flex-basis: 100px;
+  height: 790px;
+  flex-direction: column;
+  gap: 90px;
+  border-style: solid;
+  background-color: black;
+  border-radius: 0px;
+  margin-left: 60px;
+  align-items: center;
+}
+.menu-icon {
+  color: white;
+  font-size: 50px;
+}
+figcaption {
+  text-align: center;
+}
