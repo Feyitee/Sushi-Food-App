@@ -10,7 +10,7 @@
   margin-top: 60px;
 }
 .border-line {
-  border-top: 10px solid #f1d5bb;
+  border-top: 5px solid #f1d5bb;
   width: 306px;
 }
 .sushi-header {
@@ -47,8 +47,8 @@
   justify-content: center;
 }
 .menu-icon {
-  color: white;
   font-size: 50px;
+  color: white;
 }
 .menu-button {
   display: flex;
