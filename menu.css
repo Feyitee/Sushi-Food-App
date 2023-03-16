@@ -12,6 +12,7 @@
 .border-line {
   border: solid;
   width: 306px;
+  color: #f1d5bb;
 }
 .sushi-header {
   font-size: 50px;
@@ -33,19 +34,30 @@
 
 .menu-icons {
   display: flex;
-  flex-basis: 100px;
-  height: 790px;
+  flex-basis: 132px;
+  height: 852px;
   flex-direction: column;
   gap: 90px;
   border-style: solid;
   background-color: black;
-  border-radius: 0px;
+  border-radius: 24px;
+  padding-top: 25px;
+  padding-bottom: 25px;
   margin-left: 60px;
   align-items: center;
+  justify-content: center;
 }
 .menu-icon {
   color: white;
   font-size: 50px;
+}
+.menu-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+button {
+  padding: 38px;
 }
 figcaption {
   text-align: center;
