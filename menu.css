@@ -57,8 +57,22 @@
   align-items: center;
 }
 button {
-  padding: 38px;
+  padding: 14px;
+  width: 194px;
+  background-color: black;
+  color: #ffffff;
+  font-size: 20px;
+  line-height: 25px;
 }
 figcaption {
   text-align: center;
+}
+.footer {
+  position: relative;
+}
+.menu-footer {
+  position: fixed;
+  font-weight: 600px;
+  left: 250px;
+  top: 950px;
 }
