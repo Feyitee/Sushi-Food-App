@@ -8,4 +8,17 @@ body {
 .container {
   max-width: 1550px;
   background-color: blue;
+  display: flex;
+  margin: auto;
+  padding: auto;
+}
+.menu-icons {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100px;
+  gap: 50px;
+  margin-left: 20px;
+}
+.cart-pricelist {
+  display: flex;
 }

@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Cart</title>
+    <link href="cart.css" rel="stylesheet" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
@@ -38,67 +39,79 @@
         <i class="fa fa-sign-out menu-icon" aria-hidden="true"></i>
       </div>
 
-      <div class="cart-header">
+      <!--<div class="cart-header">
         <h1>Cart</h1>
         <div class="border-lines"></div>
-      </div>
+      </div>-->
 
-      <div class="cart-pricelist">
-        <div class="cart">
+      <div class="pricelist-container">
+        <div class="cart-pricelist">
           <div class="smashed-avo">
             <img src="images/Ellipse 5.jpg" />
             <figcaption>Smashed Avo</figcaption>
-            <div class="smashed-avo-icons">
-              <i class="fa fa-plus" aria-hidden="true"></i>
-              <span class="cart-num">1</span>
-              <i class="fa fa-minus" aria-hidden="true"></i>
-              <i class="fa fa-times" aria-hidden="true"></i>
-            </div>
+            <p>$20.00</p>
           </div>
-          <div>
+          <div class="smashed-avo-icons">
+            <i class="fa fa-plus" aria-hidden="true"></i>
+            <span class="cart-num">1</span>
+            <i class="fa fa-minus" aria-hidden="true"></i>
+            <i class="fa fa-times" aria-hidden="true"></i>
+          </div>
+        </div>
+        <div class="ying-pricelist">
+          <div class="ying-yang">
             <img src="images/Ellipse 6.png" />
             <figcaption>Ying & Yang</figcaption>
-            <div class="ying-yang-icons">
-              <i class="fa fa-plus" aria-hidden="true"></i>
-              <span class="cart-num">1</span>
-              <i class="fa fa-minus" aria-hidden="true"></i>
-              <i class="fa fa-times" aria-hidden="true"></i>
-            </div>
+            <p>$10.00</p>
           </div>
-          <div>
+          <div class="ying-yang-icons">
+            <i class="fa fa-plus" aria-hidden="true"></i>
+            <span class="cart-num">1</span>
+            <i class="fa fa-minus" aria-hidden="true"></i>
+            <i class="fa fa-times" aria-hidden="true"></i>
+          </div>
+        </div>
+
+        <div class="pancakes-pricelist">
+          <div class="pancake">
             <img src="images/Ellipse 7.png" />
             <figcaption>Pancakes</figcaption>
-            <div class="pancakes-icons">
-              <i class="fa fa-plus" aria-hidden="true"></i>
-              <span class="cart-num">1</span>
-              <i class="fa fa-minus" aria-hidden="true"></i>
-              <i class="fa fa-times" aria-hidden="true"></i>
-            </div>
+            <p>$25.00</p>
           </div>
-          <div>
+          <div class="pancakes-icons">
+            <i class="fa fa-plus" aria-hidden="true"></i>
+            <span class="cart-num">1</span>
+            <i class="fa fa-minus" aria-hidden="true"></i>
+            <i class="fa fa-times" aria-hidden="true"></i>
+          </div>
+        </div>
+
+        <div class="rancherous-pricelist">
+          <div class="rancherous">
             <img src="images/Ellipse 8.jpg" />
             <figcaption>Rancheros(Tofu)</figcaption>
-            <div class="rancherous-icons">
-              <i class="fa fa-plus" aria-hidden="true"></i>
-              <span class="cart-num">1</span>
-              <i class="fa fa-minus" aria-hidden="true"></i>
-              <i class="fa fa-times" aria-hidden="true"></i>
-            </div>
+            <p>$25.00</p>
+          </div>
+          <div class="rancherous-icons">
+            <i class="fa fa-plus" aria-hidden="true"></i>
+            <span class="cart-num">1</span>
+            <i class="fa fa-minus" aria-hidden="true"></i>
+            <i class="fa fa-times" aria-hidden="true"></i>
           </div>
         </div>
       </div>
-    </div>
 
-    <div class="cart-subtotal">
-      <div class="heading">
-        <h1>Your Subtotal</h1>
-        <p>Subtotal $80.00</p>
-        <button class="button">Confirm order</button>
-      </div>
-      <div class="sub-heading">
-        <p>Promo code</p>
-        <input type="text" id="promo-code" name="promo-code" />
-        <button class="button">Apply</button>
+      <div class="cart-subtotal">
+        <div class="heading">
+          <p>Your Subtotal</p>
+          <p>Subtotal $80.00</p>
+          <button class="button">Confirm order</button>
+        </div>
+        <div class="sub-heading">
+          <p>Promo code</p>
+          <input type="text" id="promo-code" name="promo-code" />
+          <button class="button">Apply</button>
+        </div>
       </div>
     </div>
   </body>
