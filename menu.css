@@ -7,7 +7,10 @@
 .container {
   display: flex;
   gap: 66px;
+  width: 1445px;
   margin-top: 60px;
+  margin: auto;
+  padding: auto;
 }
 .border-line {
   border-top: 5px solid #f1d5bb;
@@ -45,10 +48,7 @@
   margin-left: 60px;
   align-items: center;
   justify-content: center;
-}
-.menu-icon {
-  font-size: 50px;
-  color: white;
+  color: ;
 }
 .menu-button {
   display: flex;
@@ -67,14 +67,15 @@ figcaption {
   text-align: center;
 }
 .footer {
-  position: relative;
+  max-width: 600px;
 }
 .menu-footer {
-  position: fixed;
-  left: 250px;
-  top: 950px;
-  color: #000000;
-  font-size: 16px;
-  font-weight: 600px;
-  line-height: 18.83px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.menu-icon {
+  color: white;
+  font-size: 50px;
+  color: white;
 }
